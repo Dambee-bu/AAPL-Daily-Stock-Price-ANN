@@ -44,14 +44,13 @@ Optimizer: Adam
 
 Metrics: MSE
 
-Epochs: 200
+Epochs: 250
 
 Batch Size: 10
 
 Results
 
 The model achieved the following performance metrics:
+loss: 4.1507  
 
-Mean Absolute Error (MAE): 1.08
-
-Mean Squared Error (MSE): 1.55
+Mean Squared Error (MSE): 4.1507
