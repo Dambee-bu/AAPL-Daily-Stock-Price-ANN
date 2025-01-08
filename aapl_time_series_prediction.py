@@ -62,8 +62,6 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-# Part 2 - Now let's make the ANN!
-
 # Importing the Keras libraries and packages
 import keras
 from keras.models import Sequential
@@ -92,4 +90,4 @@ optimizer = Adam(learning_rate=0.0001)
 classifier.compile(optimizer = 'adam', loss = 'mean_squared_error', metrics = ['mse'])
 
 # Fitting the ANN to the Training set
-classifier.fit(X_train, y_train, batch_size = 10, epochs = 200, validation_split=0.2)
+classifier.fit(X_train, y_train, batch_size = 10, epochs = 250, validation_split=0.2)
