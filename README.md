@@ -1,16 +1,14 @@
 AAPL Stock Closing Price Predictor
 
-This project uses a machine learning model to predict the daily closing price of AAPL (Apple Inc.) stock based on historical trading data. The model is trained on features including the opening price, high price, low price, and trading volume, and provides predictions for the closing price.
+This project uses a machine learning model trained to predict the daily closing price of AAPL (Apple Inc.) stock based on historical trading data. The model has been trained using features including the opening price, high price, low price, and trading volume. While predictions are not currently implemented, the project demonstrates the end-to-end process of preparing and training an ANN for stock price forecasting.
 
 Features
 
-Predicts AAPL's daily closing price.
+Trains an ML model to predict AAPL's daily closing price.
 
 Built using Python and TensorFlow/Keras.
 
-Accepts real-time stock data for predictions.
-
-Supports deployment as a Flask API.
+Ready for deployment as a Flask API.
 
 Dataset
 
